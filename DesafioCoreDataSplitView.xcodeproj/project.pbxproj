@@ -14,6 +14,7 @@
 		8F1F87871B1F75CB00B77277 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87861B1F75CB00B77277 /* Images.xcassets */; };
 		8F1F878A1B1F75CB00B77277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */; };
 		8F1F87961B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87951B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift */; };
+		8F1F87A01B1F772900B77277 /* StoryboardiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8F1F878F1B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCoreDataSplitViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1F87941B1F75CB00B77277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1F87951B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCoreDataSplitViewTests.swift; sourceTree = "<group>"; };
+		8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardiPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */,
+				8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */,
 				8F1F87811B1F75CB00B77277 /* ViewController.swift */,
 				8F1F87831B1F75CB00B77277 /* Main.storyboard */,
 				8F1F87861B1F75CB00B77277 /* Images.xcassets */,
@@ -198,6 +201,7 @@
 				8F1F87851B1F75CB00B77277 /* Main.storyboard in Resources */,
 				8F1F878A1B1F75CB00B77277 /* LaunchScreen.xib in Resources */,
 				8F1F87871B1F75CB00B77277 /* Images.xcassets in Resources */,
+				8F1F87A01B1F772900B77277 /* StoryboardiPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
