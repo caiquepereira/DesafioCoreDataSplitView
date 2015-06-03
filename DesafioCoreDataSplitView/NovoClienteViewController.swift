@@ -29,6 +29,12 @@ class NovoClienteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func addNovoCliente(sender: AnyObject) {
+        
+        println("Novo cliente salvo")
+        navigationController?.popViewControllerAnimated(true)
+        
+    }
 
     /*
     // MARK: - Navigation

@@ -30,6 +30,17 @@ class NovaMarcaViewController: UIViewController {
     }
     
 
+
+    @IBAction func addNovaMarca(sender: AnyObject) {
+    
+        println("Nova marca salva")
+        navigationController?.popViewControllerAnimated(true)
+        
+    }
+ 
+    
+    
+    
     /*
     // MARK: - Navigation
 

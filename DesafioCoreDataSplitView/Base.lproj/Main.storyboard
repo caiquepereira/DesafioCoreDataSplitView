@@ -90,7 +90,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Nova Marca" id="aKX-sf-zRe">
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="PfH-qg-zX6"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="PfH-qg-zX6">
+                            <connections>
+                                <action selector="addNovaMarca:" destination="Fo6-KV-jhU" id="iMx-kF-PsV"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="txtFieldNome" destination="a6T-yA-9PD" id="Bva-w6-QHU"/>
@@ -227,7 +231,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Novo Cliente" id="LU4-uM-OR2">
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="YWS-3B-RGQ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="YWS-3B-RGQ">
+                            <connections>
+                                <action selector="addNovoCliente:" destination="WPx-ZR-bv1" id="hz5-pg-dHc"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="customImage" destination="TsC-8F-BS6" id="ZUv-0f-esc"/>
@@ -321,7 +329,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Novo Carro" id="V50-ib-a7Q">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="AAD-0U-qig"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="AAD-0U-qig">
+                            <connections>
+                                <action selector="addNovoCarro:" destination="Faa-Ib-mMz" id="BO3-RG-ZAC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="txtFieldAnoFabricacao" destination="5up-YA-Amg" id="Mpp-0I-sxD"/>

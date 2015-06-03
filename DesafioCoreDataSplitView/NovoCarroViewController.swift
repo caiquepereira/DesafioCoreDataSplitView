@@ -34,6 +34,16 @@ class NovoCarroViewController: UIViewController {
     }
     
 
+    @IBAction func addNovoCarro(sender: AnyObject) {
+        println("Novo carro salvo")
+        navigationController?.popViewControllerAnimated(true)
+        
+        
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
