@@ -15,6 +15,9 @@
 		8F1F878A1B1F75CB00B77277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */; };
 		8F1F87961B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87951B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift */; };
 		8F1F87A01B1F772900B77277 /* StoryboardiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */; };
+		8F1F87A21B1F7C6600B77277 /* MarcasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */; };
+		8F1F87A41B1F7C7100B77277 /* CarrosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */; };
+		8F1F87A61B1F7C7B00B77277 /* ClientesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		8F1F87941B1F75CB00B77277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1F87951B1F75CB00B77277 /* DesafioCoreDataSplitViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCoreDataSplitViewTests.swift; sourceTree = "<group>"; };
 		8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardiPad.storyboard; sourceTree = "<group>"; };
+		8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcasTableViewController.swift; sourceTree = "<group>"; };
+		8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrosTableViewController.swift; sourceTree = "<group>"; };
+		8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */,
 				8F1F87811B1F75CB00B77277 /* ViewController.swift */,
 				8F1F87831B1F75CB00B77277 /* Main.storyboard */,
+				8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */,
+				8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */,
+				8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */,
 				8F1F87861B1F75CB00B77277 /* Images.xcassets */,
 				8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */,
 				8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */,
@@ -219,9 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1F87A21B1F7C6600B77277 /* MarcasTableViewController.swift in Sources */,
 				8F1F87821B1F75CB00B77277 /* ViewController.swift in Sources */,
+				8F1F87A61B1F7C7B00B77277 /* ClientesTableViewController.swift in Sources */,
 				8F1F87801B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld in Sources */,
 				8F1F877D1B1F75CB00B77277 /* AppDelegate.swift in Sources */,
+				8F1F87A41B1F7C7100B77277 /* CarrosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-82" y="1637"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Marcas-->
         <scene sceneID="oVw-f4-z7Q">
             <objects>
-                <tableViewController id="86h-Mb-Dts" sceneMemberID="viewController">
+                <tableViewController id="86h-Mb-Dts" customClass="MarcasTableViewController" customModule="DesafioCoreDataSplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zie-Cm-iTZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,9 @@
                             <outlet property="delegate" destination="86h-Mb-Dts" id="hLA-zA-dVh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="8ih-6a-XN0"/>
+                    <navigationItem key="navigationItem" title="Marcas" id="Axt-yd-apC">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="kDW-oQ-tLy"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DkC-Oy-L08" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="1082" y="809"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Title-->
         <scene sceneID="bKV-y3-B45">
             <objects>
-                <tableViewController id="cKU-RN-Xrx" sceneMemberID="viewController">
+                <tableViewController id="cKU-RN-Xrx" customClass="ClientesTableViewController" customModule="DesafioCoreDataSplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MQV-7p-QL8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,16 +91,18 @@
                             <outlet property="delegate" destination="cKU-RN-Xrx" id="ew3-kf-Wv4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="5b2-FV-amq"/>
+                    <navigationItem key="navigationItem" title="Title" id="yIF-fs-Zwt">
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="bIZ-7W-HV6"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EpR-bX-AOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1886" y="1613"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Title-->
         <scene sceneID="n9B-zD-28d">
             <objects>
-                <tableViewController id="22X-6i-r6x" sceneMemberID="viewController">
+                <tableViewController id="22X-6i-r6x" customClass="CarrosTableViewController" customModule="DesafioCoreDataSplitView" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mL4-qb-tob">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,7 +120,9 @@
                             <outlet property="delegate" destination="22X-6i-r6x" id="5Le-RW-HYb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="794-UM-Wgk"/>
+                    <navigationItem key="navigationItem" title="Title" id="dT5-z9-rjs">
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Y6V-Yg-oTP"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AG9-63-sGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
