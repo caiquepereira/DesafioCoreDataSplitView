@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8F1F877D1B1F75CB00B77277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */; };
 		8F1F87801B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */; };
-		8F1F87821B1F75CB00B77277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87811B1F75CB00B77277 /* ViewController.swift */; };
 		8F1F87851B1F75CB00B77277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87831B1F75CB00B77277 /* Main.storyboard */; };
 		8F1F87871B1F75CB00B77277 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87861B1F75CB00B77277 /* Images.xcassets */; };
 		8F1F878A1B1F75CB00B77277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */; };
@@ -18,6 +17,9 @@
 		8F1F87A21B1F7C6600B77277 /* MarcasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */; };
 		8F1F87A41B1F7C7100B77277 /* CarrosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */; };
 		8F1F87A61B1F7C7B00B77277 /* ClientesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */; };
+		8F1F87A81B1F835600B77277 /* NovoClienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A71B1F835600B77277 /* NovoClienteViewController.swift */; };
+		8F1F87AA1B1F861C00B77277 /* NovaMarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A91B1F861C00B77277 /* NovaMarcaViewController.swift */; };
+		8F1F87AC1B1F863000B77277 /* NovoCarroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 		8F1F877B1B1F75CB00B77277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F1F877F1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioCoreDataSplitView.xcdatamodel; sourceTree = "<group>"; };
-		8F1F87811B1F75CB00B77277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F1F87841B1F75CB00B77277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1F87861B1F75CB00B77277 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F1F87891B1F75CB00B77277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -46,6 +47,9 @@
 		8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcasTableViewController.swift; sourceTree = "<group>"; };
 		8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrosTableViewController.swift; sourceTree = "<group>"; };
 		8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientesTableViewController.swift; sourceTree = "<group>"; };
+		8F1F87A71B1F835600B77277 /* NovoClienteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoClienteViewController.swift; sourceTree = "<group>"; };
+		8F1F87A91B1F861C00B77277 /* NovaMarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaMarcaViewController.swift; sourceTree = "<group>"; };
+		8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoCarroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +93,13 @@
 			children = (
 				8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */,
 				8F1F879F1B1F772900B77277 /* StoryboardiPad.storyboard */,
-				8F1F87811B1F75CB00B77277 /* ViewController.swift */,
 				8F1F87831B1F75CB00B77277 /* Main.storyboard */,
 				8F1F87A11B1F7C6600B77277 /* MarcasTableViewController.swift */,
 				8F1F87A31B1F7C7100B77277 /* CarrosTableViewController.swift */,
 				8F1F87A51B1F7C7B00B77277 /* ClientesTableViewController.swift */,
+				8F1F87A71B1F835600B77277 /* NovoClienteViewController.swift */,
+				8F1F87A91B1F861C00B77277 /* NovaMarcaViewController.swift */,
+				8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */,
 				8F1F87861B1F75CB00B77277 /* Images.xcassets */,
 				8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */,
 				8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */,
@@ -228,12 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1F87AC1B1F863000B77277 /* NovoCarroViewController.swift in Sources */,
 				8F1F87A21B1F7C6600B77277 /* MarcasTableViewController.swift in Sources */,
-				8F1F87821B1F75CB00B77277 /* ViewController.swift in Sources */,
+				8F1F87A81B1F835600B77277 /* NovoClienteViewController.swift in Sources */,
 				8F1F87A61B1F7C7B00B77277 /* ClientesTableViewController.swift in Sources */,
 				8F1F87801B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld in Sources */,
 				8F1F877D1B1F75CB00B77277 /* AppDelegate.swift in Sources */,
 				8F1F87A41B1F7C7100B77277 /* CarrosTableViewController.swift in Sources */,
+				8F1F87AA1B1F861C00B77277 /* NovaMarcaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
