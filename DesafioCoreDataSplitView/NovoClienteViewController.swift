@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NovoClienteViewController: UIViewController {
+class NovoClienteViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
     @IBOutlet weak var txtFieldNome: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -36,6 +36,37 @@ class NovoClienteViewController: UIViewController {
         
     }
 
+    
+    @IBAction func botaoCameraClicado(sender: AnyObject) {
+        let imagePicker = UIImagePickerController()
+        
+        if UIImagePickerController.isSourceTypeAvailable(.Camera){
+            imagePicker.sourceType = .Camera
+        }else{
+            imagePicker.sourceType = .PhotoLibrary
+        }
+        
+        imagePicker.delegate = self
+        
+        presentViewController(imagePicker, animated: true, completion: nil)
+    
+        
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        customImage.image=image
+        
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
