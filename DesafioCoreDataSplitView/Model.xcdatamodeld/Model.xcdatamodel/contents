@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CARROS" representedClassName="Carro" syncable="YES">
+        <attribute name="anoFabricacao" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="anoModelo" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="carro_has_cliente" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CLIENTES" inverseName="cliente_has_carro" inverseEntity="CLIENTES" syncable="YES"/>
+    </entity>
+    <entity name="CLIENTES" representedClassName="Cliente" syncable="YES">
+        <attribute name="dataDeNascimento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="cliente_has_carro" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CARROS" inverseName="carro_has_cliente" inverseEntity="CARROS" syncable="YES"/>
+    </entity>
+    <entity name="MARCAS" representedClassName="Marca" syncable="YES">
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MARCAS" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="CARROS" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="CLIENTES" positionX="-36" positionY="9" width="128" height="120"/>
+    </elements>
+</model>
