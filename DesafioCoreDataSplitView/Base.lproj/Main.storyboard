@@ -92,6 +92,9 @@
                     <navigationItem key="navigationItem" title="Nova Marca" id="aKX-sf-zRe">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="PfH-qg-zX6"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="txtFieldNome" destination="a6T-yA-9PD" id="Bva-w6-QHU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8c-h8-789" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +229,11 @@
                     <navigationItem key="navigationItem" title="Novo Cliente" id="LU4-uM-OR2">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="YWS-3B-RGQ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="customImage" destination="TsC-8F-BS6" id="ZUv-0f-esc"/>
+                        <outlet property="datePicker" destination="5Ru-5J-fM1" id="fva-BU-CCu"/>
+                        <outlet property="txtFieldNome" destination="CrV-fR-Ndc" id="53c-X0-3Zw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jgn-KE-sDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -315,6 +323,12 @@
                     <navigationItem key="navigationItem" title="Novo Carro" id="V50-ib-a7Q">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="AAD-0U-qig"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="txtFieldAnoFabricacao" destination="5up-YA-Amg" id="Mpp-0I-sxD"/>
+                        <outlet property="txtFieldAnoModelo" destination="th8-wD-ZWc" id="Am6-1n-hlq"/>
+                        <outlet property="txtFieldCor" destination="C3u-k6-HTv" id="1ai-fR-zuY"/>
+                        <outlet property="txtFieldModelo" destination="Eiq-u4-yK3" id="eQq-QF-nkW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Upg-K3-b6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

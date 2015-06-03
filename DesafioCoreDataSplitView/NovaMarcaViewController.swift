@@ -10,6 +10,11 @@ import UIKit
 
 class NovaMarcaViewController: UIViewController {
 
+    
+    @IBOutlet weak var txtFieldNome: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

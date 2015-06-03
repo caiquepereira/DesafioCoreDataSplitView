@@ -10,6 +10,12 @@ import UIKit
 
 class NovoClienteViewController: UIViewController {
 
+    @IBOutlet weak var txtFieldNome: UITextField!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet weak var customImage: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

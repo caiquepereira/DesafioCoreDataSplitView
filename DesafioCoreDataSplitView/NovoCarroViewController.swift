@@ -10,6 +10,15 @@ import UIKit
 
 class NovoCarroViewController: UIViewController {
 
+    @IBOutlet weak var txtFieldModelo: UITextField!
+    
+    @IBOutlet weak var txtFieldCor: UITextField!
+    
+    @IBOutlet weak var txtFieldAnoModelo: UITextField!
+    
+    @IBOutlet weak var txtFieldAnoFabricacao: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
