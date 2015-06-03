@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F1F877D1B1F75CB00B77277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */; };
-		8F1F87801B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */; };
 		8F1F87851B1F75CB00B77277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87831B1F75CB00B77277 /* Main.storyboard */; };
 		8F1F87871B1F75CB00B77277 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87861B1F75CB00B77277 /* Images.xcassets */; };
 		8F1F878A1B1F75CB00B77277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */; };
@@ -21,6 +20,9 @@
 		8F1F87AA1B1F861C00B77277 /* NovaMarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A91B1F861C00B77277 /* NovaMarcaViewController.swift */; };
 		8F1F87AC1B1F863000B77277 /* NovoCarroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */; };
 		8F1F87AF1B1F940F00B77277 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87AD1B1F940F00B77277 /* Model.xcdatamodeld */; };
+		8F1F87B11B1F98E700B77277 /* Marca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87B01B1F98E700B77277 /* Marca.swift */; };
+		8F1F87B31B1F98E800B77277 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87B21B1F98E800B77277 /* Carro.swift */; };
+		8F1F87B51B1F98E800B77277 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87B41B1F98E800B77277 /* Cliente.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		8F1F87771B1F75CB00B77277 /* DesafioCoreDataSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCoreDataSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1F877B1B1F75CB00B77277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1F877C1B1F75CB00B77277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F1F877F1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioCoreDataSplitView.xcdatamodel; sourceTree = "<group>"; };
 		8F1F87841B1F75CB00B77277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1F87861B1F75CB00B77277 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F1F87891B1F75CB00B77277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,6 +53,9 @@
 		8F1F87A91B1F861C00B77277 /* NovaMarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaMarcaViewController.swift; sourceTree = "<group>"; };
 		8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoCarroViewController.swift; sourceTree = "<group>"; };
 		8F1F87AE1B1F940F00B77277 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8F1F87B01B1F98E700B77277 /* Marca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marca.swift; sourceTree = "<group>"; };
+		8F1F87B21B1F98E800B77277 /* Carro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		8F1F87B41B1F98E800B77277 /* Cliente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				8F1F87A71B1F835600B77277 /* NovoClienteViewController.swift */,
 				8F1F87AB1B1F863000B77277 /* NovoCarroViewController.swift */,
 				8F1F87AD1B1F940F00B77277 /* Model.xcdatamodeld */,
+				8F1F87B41B1F98E800B77277 /* Cliente.swift */,
+				8F1F87B21B1F98E800B77277 /* Carro.swift */,
+				8F1F87B01B1F98E700B77277 /* Marca.swift */,
 				8F1F87861B1F75CB00B77277 /* Images.xcassets */,
 				8F1F87881B1F75CB00B77277 /* LaunchScreen.xib */,
-				8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */,
 				8F1F877A1B1F75CB00B77277 /* Supporting Files */,
 			);
 			path = DesafioCoreDataSplitView;
@@ -241,11 +247,13 @@
 				8F1F87A21B1F7C6600B77277 /* MarcasTableViewController.swift in Sources */,
 				8F1F87A81B1F835600B77277 /* NovoClienteViewController.swift in Sources */,
 				8F1F87A61B1F7C7B00B77277 /* ClientesTableViewController.swift in Sources */,
-				8F1F87801B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld in Sources */,
+				8F1F87B51B1F98E800B77277 /* Cliente.swift in Sources */,
 				8F1F87AF1B1F940F00B77277 /* Model.xcdatamodeld in Sources */,
 				8F1F877D1B1F75CB00B77277 /* AppDelegate.swift in Sources */,
 				8F1F87A41B1F7C7100B77277 /* CarrosTableViewController.swift in Sources */,
 				8F1F87AA1B1F861C00B77277 /* NovaMarcaViewController.swift in Sources */,
+				8F1F87B11B1F98E700B77277 /* Marca.swift in Sources */,
+				8F1F87B31B1F98E800B77277 /* Carro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,16 +463,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8F1F877E1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8F1F877F1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodel */,
-			);
-			currentVersion = 8F1F877F1B1F75CB00B77277 /* DesafioCoreDataSplitView.xcdatamodel */;
-			path = DesafioCoreDataSplitView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		8F1F87AD1B1F940F00B77277 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
