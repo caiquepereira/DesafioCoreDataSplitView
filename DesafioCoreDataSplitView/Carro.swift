@@ -6,9 +6,10 @@
 //  Copyright (c) 2015 Caique de Paula Pereira. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CoreData
 
+@objc(Carro)
 class Carro: NSManagedObject {
 
     @NSManaged var modelo: String
